@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - main code
  *
  * Return: Always (Success)
  */
