@@ -34,8 +34,8 @@ int main(void)
 	{
 		printf(", %lu", aft1 + (aft2 / l));
 		printf("%lu", aft2 % l);
-		aft = aft1 + bef1;
-		bef1 = aft1 -bef1;
+		aft1 = aft1 + bef1;
+		bef1 = aft1 - bef1;
 		aft2 = aft2 + bef2;
 		bef2 = aft2 - bef2;
 	}
