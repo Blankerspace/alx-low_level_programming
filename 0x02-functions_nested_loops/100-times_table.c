@@ -41,12 +41,6 @@ void print_times_table(int n)
 			}
 			if (b < n)
 			{
-				_putchar('0' + rep / 100);
-				_putchar('0' + (rep - 100) / 10);
-				_putchar('0' + rep % 10);
-			}
-			if (b < n)
-			{
 				_putchar(',');
 				_putchar(' ');
 			}
