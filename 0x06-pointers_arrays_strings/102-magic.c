@@ -1,11 +1,7 @@
 #include <stdio.h>
+#include <stdlib>
 
-/**
- * main - another file
- *
- */
-
-int main(void)
+int main(void) - done 
 {
 	int n;
 	int a[5];
