@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - another file
+ *
+ */
+
 int main(void)
 {
 	int n;
