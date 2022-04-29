@@ -7,7 +7,7 @@
  * Return: Always 0.
  */
 
-int long-1(char *s)
+int long_1(char *s)
 {
 	if (*s != '\0')
 	{
@@ -40,7 +40,7 @@ int compare(char *s, int l)
 }
 
 /**
- * is_palindrome - main check the code
+ * is_palindrome - main - check the code
  * @s: character
  *
  * Return: Always 0.
