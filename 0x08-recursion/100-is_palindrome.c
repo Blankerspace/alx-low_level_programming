@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * long_1 - main - check the code
+ * long_1 -main - check the code
  * @s: number
  *
  * Return: Always 0.
  */
 
-int long_l(char *s)
+int long-1(char *s)
 {
 	if (*s != '\0')
 	{
-		return (l + long_l(s + l));
+		return (1 + long_1(s + 1));
 	}
 	return (0);
 
@@ -49,6 +49,6 @@ int is_palindrome(char *s)
 {
 	int l;
 
-	l = long_l(s);
+	l = long_1(s);
 	return (compare(s, l));
 }
