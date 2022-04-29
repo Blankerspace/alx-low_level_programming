@@ -18,16 +18,14 @@ int sqrt_a(int a, int b)
 		return (-1);
 	}
 	return (sqrt_a(a, b + 1));
-	}
-
-	/**
-	 * _sqrt_recursion - main - check the code
-	 * @n: number
-	 *
-	 * Return: Always 0.
-	 */
-	int _sqrt_recursion(int n)
-	{
-		return (sqrt_a(n, 0));
-	}
+}
+/**
+ * _sqrt_recursion - main - check the code
+ * @n: number
+ *
+ * Return: Always 0.
+ */
+int _sqrt_recursion(int n)
+{
+	return (sqrt_a(n, 0));
 }
