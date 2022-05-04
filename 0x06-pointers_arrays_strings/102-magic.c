@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdlib>
 
-int main(void) - done 
+int main(void) 
 {
 	int n;
 	int a[5];
