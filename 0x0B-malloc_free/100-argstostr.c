@@ -24,7 +24,7 @@ char *argstostr(int ac, char **av)
 
 	str = malloc(sizeof(char) * len + 1);
 	if (str == NULL)
-		rteurn (NULL);
+		return (NULL);
 
 	for (i = 0; i < ac; i++)
 	{
@@ -34,7 +34,7 @@ char *argstostr(int ac, char **av)
 			k++;
 		}
 		if (str[k] == '\0')
-		{
+i		{
 			str[k++] = '\n';
 		}
 	}
