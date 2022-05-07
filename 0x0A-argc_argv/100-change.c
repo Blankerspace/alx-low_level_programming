@@ -38,19 +38,16 @@ int main(int argc, char *argv[])
 				cents -= 2;
 				coins++;
 			}
-				else if (cents % 1 < cents)
-				{
-					cents -= 1;
-					coins++;
-				}
+			else if (cents % 1 < cents)
+			{
+				cents -= 1;
+				coins++;
 			}
 		}
-		else
-		{
-			printf("Error\n");
-			return (1);
-		}
-		printf("%d\n", coins);
-		return (0);
+	}
+	else 
+	{
+		printf("Error\n");
+		return (1);
 	}
 }
