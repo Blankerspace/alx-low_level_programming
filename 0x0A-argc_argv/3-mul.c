@@ -7,7 +7,7 @@
  * @argv: gives the value passed to the function for char.
  *
  * Return: Returns always success.
- */
+ **/
 
 int main(int argc, char *argv[])
 {
