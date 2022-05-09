@@ -8,7 +8,7 @@
  *
  * Return: pointer to newly allocated memory or null if fails
  */
- int *array_range(int min, int max)
+int *array_range(int min, int max)
 {
 	int i, l;
 	int *a;
@@ -19,7 +19,7 @@
 	a = malloc(sizeof(int) * l);
 	if (a == NULL)
 		return (NULL);
-	for (i = o; i < l; i++, min++)
+	for (i = 0; i < l; i++, min++)
 	{
 		a[i] = min;
 	}
