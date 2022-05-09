@@ -4,7 +4,7 @@
 /**
  * _print - moves a string one place to the left and prints the string
  * @str: string to move
- * @1: size of string
+ * @l: size of string
  *
  * Return: void
  */
@@ -83,7 +83,7 @@ int check_for_digits(char **av)
 }
 
 /**
- * intit - initializes a string
+ * init - initializes a string
  * @str: string to initialize
  * @l: length of string
  *
@@ -104,7 +104,7 @@ void init(char *str, int l)
  *
  * Return: zero, or exit status of 98 if failure
  */
-int main(int argc, char *arggv[])
+int main(int argc, char *argv[])
 {
 	int l1, l2, ln, ti, i;
 	char *a;
@@ -121,7 +121,7 @@ int main(int argc, char *arggv[])
 		;
 	for (l2 = 0; argv[2][l2]; l2++)
 		;
-	ln = l1 + l2 +1;
+	ln = l1 + l2 + 1;
 	a = malloc(ln * sizeof(char));
 	if (a == NULL)
 	{
