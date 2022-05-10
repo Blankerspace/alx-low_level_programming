@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void) 
+
+int main(void)
 {
 	int n;
 	int a[5];
@@ -9,6 +10,7 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 	/*
+	 * main - Entry point
 	 * write your line of code here...
 	 * Remember:
 	 * - you are not allowed to use a
