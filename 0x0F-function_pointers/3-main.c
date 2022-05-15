@@ -8,7 +8,7 @@
  * @argc: Number of arguments
  * @argv: value of arguments
  * Return: Returns an int
- * */
+ **/
 
 int main(int argc, char argv[])
 {
