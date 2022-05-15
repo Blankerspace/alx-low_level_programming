@@ -14,7 +14,8 @@ int main(int argc, char argv[])
 {
 	if (argc != 4)
 	{
-		orintf("Error\n");
+
+	printf("Error\n");
 		exit(98);
 	}
 
